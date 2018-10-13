@@ -1,0 +1,101 @@
+
+			@import "https://fonts.googleapis.com/css?family=Shrikhand";
+			@import "https://fonts.googleapis.com/css?family=Sansita+One";
+			@import "https://fonts.googleapis.com/css?family=Scope+One";
+			@import "https://fonts.googleapis.com/css?family=Unica+One";
+			html {
+				font-size: large !important;
+			}
+			a {
+				text-decoration: none;
+				color: #466C95;
+			}
+			a:visited {
+				text-decoration: none;
+				color: #466C95;
+			}
+			a:hover {
+				text-decoration: none;
+				color: #466C95;
+				background-color: #F6F49D;
+			}
+			a:focus {
+				text-decoration: none;
+				color: #466C95;
+				background-color: #F6F49D;
+			}
+			a:hover, a:active {
+				text-decoration: none;
+				color: #466C95;
+			}
+			.description a {
+				background-color: #fffec4;
+				padding: 2.1px;
+			}
+			header .external-links {
+				margin-top: 0.42em;
+				margin-left: 0.42em;
+			}
+			header .external-links li {
+				display: inline;
+				font-size: 1.35em;
+				padding: 0.21em;
+				font-family: 'Unica One';
+			}
+			h1 {
+				font-family: 'Shrikhand';
+				font-size: 4.2em;
+				margin: 0;
+				max-width: 642px;
+				color: #5DAE8B;
+			}
+			h2 {
+				font-family: 'Sansita One';
+				font-size: 3.642em;
+				margin: 0;
+				max-width: 642px;
+				color: #2C3849;
+			}
+			main {
+				min-height: 90vh;
+			}
+			.center-of-screen {
+				display: -webkit-box;
+				display: -webkit-flex;
+				display: -ms-flexbox;
+				display: flex;
+				-webkit-box-pack: center;
+				-webkit-justify-content: center;
+				-ms-flex-pack: center;
+				justify-content: center;
+				-webkit-box-align: center;
+				-webkit-align-items: center;
+				-ms-flex-align: center;
+				align-items: center;
+			}
+			.center-of-screen .description {
+				font-family: 'Scope One';
+				font-weight: 742;
+				color: #2C3849;
+				margin-top: 2.5em;
+				max-width: 560px;
+				text-align: left;
+				line-height: 2em;
+			}
+			.description .slick-dots li button:before {
+				color: #5DAE8B;
+			}
+			.description .slick-dots li button {
+				color: #5DAE8B;
+			}
+			@media (max-width: 584px) {
+				h1 {
+					font-size: 2.5em;
+				}
+				h2 {
+					font-size: 2.142em;
+				}
+				.center-of-screen .description {
+					max-width: 330px;
+				}
+			}
