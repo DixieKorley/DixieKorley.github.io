@@ -47,7 +47,7 @@
 				font-size: 4.2em;
 				margin: 0;
 				max-width: 642px;
-				color: #5DAE8B;
+				color: rgb(162, 0, 255);
 			}
 			h2 {
 				font-family: 'Sansita One';
@@ -55,7 +55,15 @@
 				margin: 0;
 				max-width: 642px;
 				color: #2C3849;
-			}
+            }
+            
+            h3 {
+                font-family: 'Sansita One';
+				font-size: 2em;
+				margin: 0;
+				max-width: 642px;
+				color: #2C3849;
+            }
 			main {
 				min-height: 90vh;
 			}
