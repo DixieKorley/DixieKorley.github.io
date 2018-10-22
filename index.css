@@ -1,113 +1,126 @@
+@import "https://fonts.googleapis.com/css?family=Shrikhand";
+@import "https://fonts.googleapis.com/css?family=Sansita+One";
+@import 'https://fonts.googleapis.com/css?family=Bungee+Inline';
+@import "https://fonts.googleapis.com/css?family=Mali";
+@import "https://fonts.googleapis.com/css?family=Unica+One";
+html {
+	font-size: large !important;
+}
+a {
+	text-decoration: none;
+	color: #466c95;
+}
+a:visited {
+	text-decoration: none;
+	color: #466c95;
+}
+a:hover {
+	text-decoration: none;
+	color: #466c95;
+	background-color: #f6f49d;
+}
+a:focus {
+	text-decoration: none;
+	color: #466c95;
+	background-color: #f6f49d;
+}
+a:hover,
+a:active {
+	text-decoration: none;
+	color: #466c95;
+}
+.description a {
+	background-color: #fffec4;
+	padding: 2.1px;
+}
+header .external-links {
+	margin-top: 0.42em;
+	margin-left: 0.42em;
+}
+header .external-links li {
+	display: inline;
+	font-size: 1.35em;
+	padding: 0.21em;
+	font-family: 'Unica One';
+}
+h1 {
+	font-family: 'Shrikhand';
+	font-size: 4.2em;
+	margin: 0;
+	max-width: 642px;
+	color: rgb(218, 156, 253);
+}
+h2 {
+	font-family: 'Sansita One';
+	font-size: 3.642em;
+	margin: 0;
+	max-width: 642px;
+	color: #2c3849;
+}
 
-			@import "https://fonts.googleapis.com/css?family=Shrikhand";
-			@import "https://fonts.googleapis.com/css?family=Sansita+One";
-            @import 'https://fonts.googleapis.com/css?family=Bungee+Inline';
-            @import "https://fonts.googleapis.com/css?family=Mali";
-			@import "https://fonts.googleapis.com/css?family=Unica+One";
-			html {
-				font-size: large !important;
-			}
-			a {
-				text-decoration: none;
-				color: #466C95;
-			}
-			a:visited {
-				text-decoration: none;
-				color: #466C95;
-			}
-			a:hover {
-				text-decoration: none;
-				color: #466C95;
-				background-color: #F6F49D;
-			}
-			a:focus {
-				text-decoration: none;
-				color: #466C95;
-				background-color: #F6F49D;
-			}
-			a:hover, a:active {
-				text-decoration: none;
-				color: #466C95;
-			}
-			.description a {
-				background-color: #fffec4;
-				padding: 2.1px;
-			}
-			header .external-links {
-				margin-top: 0.42em;
-				margin-left: 0.42em;
-			}
-			header .external-links li {
-				display: inline;
-				font-size: 1.35em;
-				padding: 0.21em;
-				font-family: 'Unica One';
-			}
-			h1 {
-				font-family: 'Shrikhand';
-				font-size: 4.2em;
-				margin: 0;
-				max-width: 642px;
-				color: rgb(218, 156, 253);
-			}
-			h2 {
-				font-family: 'Sansita One';
-				font-size: 3.642em;
-				margin: 0;
-				max-width: 642px;
-				color: #2C3849;
-            }
-            
-            h3 {
-                font-family: 'Sansita One';
-				font-size: 2em;
-				margin: 0;
-                color: #79c6c8;
-                text-align: center;
-            }
-			main {
-				min-height: 90vh;
-			}
-			.headshot {
-				border-radius: 50%;
-			}
-			.center-of-screen {
-				display: -webkit-box;
-				display: -webkit-flex;
-				display: -ms-flexbox;
-				display: flex;
-				-webkit-box-pack: center;
-				-webkit-justify-content: center;
-				-ms-flex-pack: center;
-				justify-content: center;
-				-webkit-box-align: center;
-				-webkit-align-items: center;
-				-ms-flex-align: center;
-				align-items: center;
-			}
-			.center-of-screen .description {
-				font-family: 'Mali';
-				font-weight: 742;
-				color: #2C3849;
-				margin-top: 2.5em;
-				max-width: 560px;
-				text-align: left;
-				line-height: 2em;
-			}
-			.description .slick-dots li button:before {
-				color: rgb(218, 156, 253);
-			}
-			.description .slick-dots li button {
-				color: rgb(218, 156, 253);
-			}
-			@media (max-width: 584px) {
-				h1 {
-					font-size: 2.5em;
-				}
-				h2 {
-					font-size: 2.142em;
-				}
-				.center-of-screen .description {
-					max-width: 330px;
-				}
-			}
+h3 {
+	font-family: 'Sansita One';
+	font-size: 2em;
+	margin: 0;
+	color: #79c6c8;
+	text-align: center;
+}
+main {
+	min-height: 90vh;
+}
+
+.headshot {
+	border-radius: 50%;
+	width: 200px;
+	height: 200px;
+	margin-bottom: 5%;
+	margin-top: 10%;
+}
+.center-of-screen {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	-ms-flex-align: center;
+	align-items: center;
+}
+.center-of-screen .description {
+	font-family: 'Mali';
+	font-weight: 742;
+	color: #2c3849;
+	margin-top: 2.5em;
+	max-width: 560px;
+	text-align: left;
+	line-height: 2em;
+}
+.description .slick-dots li button:before {
+	color: rgb(218, 156, 253);
+}
+.description .slick-dots li button {
+	color: rgb(218, 156, 253);
+}
+@media (max-width: 584px) {
+	h1 {
+		font-size: 2.5em;
+	}
+	h2 {
+		font-size: 2.142em;
+	}
+	.center-of-screen .description {
+		max-width: 330px;
+	}
+
+	.headshot {
+		border-radius: 50%;
+		width: 150px;
+		height: 150px;
+		margin-bottom: 5%;
+		margin-top: 10%;
+	}
+}
