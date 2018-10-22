@@ -1,7 +1,6 @@
 
 			@import "https://fonts.googleapis.com/css?family=Shrikhand";
 			@import "https://fonts.googleapis.com/css?family=Sansita+One";
-            /* @import "https://fonts.googleapis.com/css?family=Scope+One"; */
             @import 'https://fonts.googleapis.com/css?family=Bungee+Inline';
             @import "https://fonts.googleapis.com/css?family=Mali";
 			@import "https://fonts.googleapis.com/css?family=Unica+One";
@@ -68,6 +67,9 @@
             }
 			main {
 				min-height: 90vh;
+			}
+			.headshot {
+				border-radius: 50%;
 			}
 			.center-of-screen {
 				display: -webkit-box;
