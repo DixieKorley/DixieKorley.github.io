@@ -3,6 +3,7 @@
 @import 'https://fonts.googleapis.com/css?family=Bungee+Inline';
 @import "https://fonts.googleapis.com/css?family=Mali";
 @import "https://fonts.googleapis.com/css?family=Unica+One";
+
 html {
 	font-size: large !important;
 }
@@ -68,14 +69,15 @@ h3 {
 main {
 	min-height: 90vh;
 }
-
+/* 
 .headshot {
 	border-radius: 50%;
 	width: 200px;
 	height: 200px;
 	margin-bottom: 5%;
 	margin-top: 10%;
-}
+} */
+
 .center-of-screen {
 	display: -webkit-box;
 	display: -webkit-flex;
@@ -116,15 +118,4 @@ main {
 		max-width: 330px;
 	}
 
-	.headshot {
-		border-radius: 50%;
-		width: 150px;
-		height: 150px;
-		margin-bottom: 5%;
-		margin-top: 10%;
-	}
-
-	/* .link {
-		font-size: 87%;
-	} */
 }
