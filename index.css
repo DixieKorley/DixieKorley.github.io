@@ -114,6 +114,9 @@ main {
 	h2 {
 		font-size: 2.142em;
 	}
+	ul {
+		margin-bottom: 5%;
+	}
 	.center-of-screen .description {
 		max-width: 330px;
 	}
