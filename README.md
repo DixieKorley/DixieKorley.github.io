@@ -1,4 +1,4 @@
-# Dixie Korley - Software Engineer and Creator
+# Dixie Korley - Creator
 
 This is my personal website. 
 
