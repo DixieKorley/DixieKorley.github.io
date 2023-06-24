@@ -1,4 +1,4 @@
-# Dixie Korley - Creator
+# Dixie Korley 
 
 This is my personal website. 
 
