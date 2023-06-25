@@ -198,7 +198,7 @@ main {
 	color: rgb(218, 156, 253);
 }
 
-@media only screen and (max-width: 950px) {
+@media only screen and (max-width: 768px) {
 	h1 {
 		font-size: 2.5em;
 	}
@@ -214,10 +214,6 @@ main {
 	.center-of-screen .description {
 		max-width: 330px;
 	}
-
-	margin-top: 2.5em;
-}
-
 .nav-menu {
 	position: fixed;
 	left: -100%;
@@ -257,3 +253,6 @@ main {
 .hamburger.active .bar:nth-child(3) {
 	transform: translateY(-8px) rotate(-45deg);
 }
+
+}
+
