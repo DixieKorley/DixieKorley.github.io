@@ -7,64 +7,65 @@
 
 * {
 	margin: 0;
-    padding: 0;
-    box-sizing: border-box;	
+	padding: 0;
+	box-sizing: border-box;
 }
 
-.header{
-    border-bottom: 1px solid #E2E8F0;
+.header {
+	border-bottom: 1px solid #E2E8F0;
 }
 
 .navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1rem 1.5rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 1rem 1.5rem;
 }
 
 .hamburger {
-    display: none;
+	display: none;
 }
 
 .bar {
-    display: block;
-    width: 25px;
-    height: 3px;
-    margin: 5px auto;
-    -webkit-transition: all 0.3s ease-in-out;
-    transition: all 0.3s ease-in-out;
-    background-color: #101010;
+	display: block;
+	width: 25px;
+	height: 3px;
+	margin: 5px auto;
+	-webkit-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+	background-color: #101010;
 }
 
 .nav-menu {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 }
 
 .nav-item {
-    margin-left: 5rem;
+	margin-left: 5rem;
 }
 
-.nav-link{
-    font-size: 1.6rem;
-    font-weight: 400;
-    color: #475569;
+.nav-link {
+	font-size: 1.6rem;
+	font-weight: 400;
+	color: #475569;
 }
 
-.nav-link:hover{
-    color: #482ff7;
+.nav-link:hover {
+	color: #482ff7;
 }
 
 .nav-logo {
-    font-size: 2.1rem;
-    font-weight: 500;
-    color: #482ff7;
+	font-size: 2.1rem;
+	font-weight: 500;
+	color: #482ff7;
 }
 
 li {
 	list-style-type: none;
 }
+
 html {
 	font-size: large !important;
 }
@@ -77,39 +78,47 @@ a {
 	text-decoration: none;
 	color: #466c95;
 }
+
 a:visited {
 	text-decoration: none;
 	color: #466c95;
 }
+
 a:hover {
 	text-decoration: none;
 	color: #466c95;
 	/* background-color: #f6f49d; */
 }
+
 a:focus {
 	text-decoration: none;
 	color: #466c95;
 	background-color: #f6f49d;
 }
+
 a:hover,
 a:active {
 	text-decoration: none;
 	color: #466c95;
 }
+
 .description a {
 	background-color: #fffec4;
 	padding: 2.1px;
 }
+
 header .external-links {
-	margin-top: 1em; 
+	margin-top: 1em;
 	margin-left: 0.42em;
 }
+
 header .external-links li {
 	display: inline;
 	font-size: 1.35em;
 	padding: 0.21em;
 	font-family: 'Open Sans', sans-serif;
 }
+
 h1 {
 	font-family: 'Shrikhand';
 	font-size: 4.2em;
@@ -117,6 +126,7 @@ h1 {
 	max-width: 642px;
 	color: rgb(218, 156, 253);
 }
+
 h2 {
 	font-family: 'Sansita One';
 	font-size: 3.642em;
@@ -144,6 +154,7 @@ h3 {
 main {
 	min-height: 90vh;
 }
+
 /* 
 .headshot {
 	border-radius: 50%;
@@ -167,6 +178,7 @@ main {
 	-ms-flex-align: center;
 	align-items: center;
 }
+
 .center-of-screen .description {
 	font-family: 'Mali';
 	font-weight: 742;
@@ -176,68 +188,72 @@ main {
 	text-align: left;
 	line-height: 2em;
 }
+
 .description .slick-dots li button:before {
 	color: rgb(218, 156, 253);
+	
 }
+
 .description .slick-dots li button {
 	color: rgb(218, 156, 253);
 }
+
 @media only screen and (max-width: 950px) {
 	h1 {
 		font-size: 2.5em;
 	}
+
 	h2 {
 		font-size: 2.142em;
 	}
+
 	ul {
 		margin-bottom: 25%;
 	}
+
 	.center-of-screen .description {
 		max-width: 330px;
-	}                                       
-		margin-top: 2.5em;
 	}
 
-	.nav-menu {
-        position: fixed;
-        left: -100%;
-        top: 5rem;
-        flex-direction: column;
-        background-color: #fff;
-        width: 100%;
-        border-radius: 10px;
-        text-align: center;
-        transition: 0.3s;
-        box-shadow:
-            0 10px 27px rgba(0, 0, 0, 0.05);
-    }
+	margin-top: 2.5em;
+}
 
-    .nav-menu.active {
-        left: 0;
-    }
+.nav-menu {
+	position: fixed;
+	left: -100%;
+	top: 5rem;
+	flex-direction: column;
+	background-color: #fff;
+	width: 100%;
+	border-radius: 10px;
+	text-align: center;
+	transition: 0.3s;
+	box-shadow:
+		0 10px 27px rgba(0, 0, 0, 0.05);
+}
 
-    .nav-item {
-        margin: 2.5rem 0;
-    }
+.nav-menu.active {
+	left: 0;
+}
 
-    .hamburger {
-        display: block;
-        cursor: pointer;
-    }
+.nav-item {
+	margin: 2.5rem 0;
+}
 
-	
-    .hamburger.active .bar:nth-child(2) {
-        opacity: 0;
-    }
-
-    .hamburger.active .bar:nth-child(1) {
-        transform: translateY(8px) rotate(45deg);
-    }
-
-    .hamburger.active .bar:nth-child(3) {
-        transform: translateY(-8px) rotate(-45deg);
-    }
+.hamburger {
+	display: block;
+	cursor: pointer;
+}
 
 
+.hamburger.active .bar:nth-child(2) {
+	opacity: 0;
+}
 
+.hamburger.active .bar:nth-child(1) {
+	transform: translateY(8px) rotate(45deg);
+}
 
+.hamburger.active .bar:nth-child(3) {
+	transform: translateY(-8px) rotate(-45deg);
+}
