@@ -192,11 +192,11 @@ main {
 	ul {
 		margin-bottom: 25%;
 	}
-	/* .center-of-screen .description {
+	.center-of-screen .description {
 		max-width: 330px;
 	}                                       
 		margin-top: 2.5em;
-	} */
+	}
 
 	.nav-menu {
         position: fixed;
@@ -240,4 +240,4 @@ main {
 
 
 
-}
+
