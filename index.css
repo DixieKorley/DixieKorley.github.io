@@ -16,46 +16,55 @@ a {
 	text-decoration: none;
 	color: #466c95;
 }
+
 a:visited {
 	text-decoration: none;
 	color: #466c95;
 }
+
 a:hover {
 	text-decoration: none;
 	color: #466c95;
 	/* background-color: #f6f49d; */
 }
+
 a:focus {
 	text-decoration: none;
 	color: #466c95;
 	background-color: #f6f49d;
 }
+
 a:hover,
 a:active {
 	text-decoration: none;
 	color: #466c95;
 }
+
 .description a {
 	background-color: #fffec4;
 	padding: 2.1px;
 }
+
 header .external-links {
 	margin-top: 1em;
 	margin-left: 0.42em;
 }
+
 header .external-links li {
 	display: inline;
 	font-size: 1.35em;
 	padding: 0.21em;
 	font-family: 'Unica One';
 }
+
 h1 {
 	font-family: 'Shrikhand';
 	font-size: 4.2em;
 	margin: 0;
 	max-width: 642px;
-	color: rgb(218, 156, 253);
+	color: rgb(198, 85, 85);
 }
+
 h2 {
 	font-family: 'Sansita One';
 	font-size: 3.642em;
@@ -83,6 +92,7 @@ h3 {
 main {
 	min-height: 90vh;
 }
+
 /* 
 .headshot {
 	border-radius: 50%;
@@ -105,7 +115,9 @@ main {
 	-webkit-align-items: center;
 	-ms-flex-align: center;
 	align-items: center;
+	padding-bottom: 3em;
 }
+
 .center-of-screen .description {
 	font-family: 'Mali';
 	font-weight: 742;
@@ -115,24 +127,78 @@ main {
 	text-align: left;
 	line-height: 2em;
 }
+
 .description .slick-dots li button:before {
-	color: rgb(218, 156, 253);
+	color: #2c3849;
 }
+
 .description .slick-dots li button {
-	color: rgb(218, 156, 253);
+	color: #2c3849;
 }
-@media (max-width: 584px) {
+
+@media (max-width: 768px) {
 	h1 {
-		font-size: 2.5em;
+		font-size: 2.8em;
 	}
+
 	h2 {
-		font-size: 2.142em;
+		font-size: 2.12em;
 	}
+
 	ul {
 		margin-bottom: 25%;
 	}
+
+	.center-of-screen .description {
+		max-width: 400px;
+	}
+
+	header .external-links {
+		padding: 0.5em;
+		margin-bottom: 1em;
+		margin-left: 1em;
+	}
+
+}
+
+@media (max-width: 568px) {
+	
+
 	.center-of-screen .description {
 		max-width: 330px;
 	}
 
+
+
+}
+
+@media (max-width: 400px) {
+	h1 {
+		font-size: 3em;
+
+	}
+
+	h2 {
+		font-size: 1.8em;
+	}
+
+	ul {
+		margin-bottom: 20%;
+	}
+
+	html {
+		font-size: smaller !important;
+	}
+
+	.center-of-screen .description {
+		max-width: 250px;
+	}
+
+	header .external-links {
+		padding: 0.1em;
+	}
+
+	main {
+		min-height: 80vh;
+	}
 }
