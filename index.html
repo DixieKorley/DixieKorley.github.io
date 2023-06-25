@@ -18,35 +18,36 @@
 		<nav class="navbar">
 			<ul class="external-links">
 				<li>
-						<a target="_blank" href="https://github.com/DixieKorley"><img src="./github.png" alt="github"
+					<a target="_blank" href="https://github.com/DixieKorley"><img src="./github.png" alt="github"
 							width="32" height="32"></a>
 				</li>
 				<li>
-						<a target="_blank" href="https://github.com/DixieKorley"><img src="./github.png" alt="github"
-								width="32" height="32"></a>
+					<a target="_blank" href="https://github.com/DixieKorley"><img src="./github.png" alt="github"
+							width="32" height="32"></a>
 				</li>
 			</ul>
-		
-						
-			<ul class="external-links">
+			<ul class="nav-menu">
+				<li class="nav-item">	
+					<a class="nav-link" href="index.html#education">Education</a>
+				</li>
 				<li class="nav-item">
-                    <a href="#" class="nav-link">Services</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#" class="nav-link">Blog</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#" class="nav-link">About</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#" class="nav-link">Contact</a>
-                </li>
+				<a class="nav-link" href="index.html#experience">Experience</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="index.html#portfolio">Portfolio</a>
+				</li>
+				<li class="nav-item">
+				<a class="nav-link" href="index.html#skills">Skills</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="index.html#contact">Contact</a>
+				</li>
 			</ul>
 			<div class="hamburger">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-            </div>
+				<span class="bar"></span>
+				<span class="bar"></span>
+				<span class="bar"></span>
+			</div>
 		</nav>
 
 	</header>
@@ -63,16 +64,7 @@
 			</a>
 			<h2>Data Analyst</h2>
 			<br>
-			<nav>
-				<!-- <a class="nav-links" href="index.html#brief">
-					About
-				</a> -->
-				<a class="nav-links" href="index.html#skills">Skills</a>
-				<a class="nav-links" href="index.html#portfolio">Portfolio</a>
-				<a class="nav-links" href="index.html#experience">Experience</a>
-				<a class="nav-links" href="index.html#education">Education</a>
-				<a class="nav-links" href="index.html#contact">Contact</a>
-			</nav>
+			
 			<div class="description">
 				<div id="brief">
 					<h3>Welcome</h3>
@@ -147,12 +139,23 @@
 	<script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
 	<script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 	<script src="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
-	<script>
+	<script defer>
 		$(document).ready(function () {
 			$('.description').slick({
 				dots: true
 			});
 		});
+
+		const hamburger = document.querySelector(".hamburger");
+		const navMenu = document.querySelector(".nav-menu");
+
+		hamburger.addEventListener("click", mobileMenu);
+
+		function mobileMenu() {
+			hamburger.classList.toggle("active");
+			navMenu.classList.toggle("active");
+		}
+
 	</script>
 </body>
 
