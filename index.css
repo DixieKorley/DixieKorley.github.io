@@ -31,8 +31,9 @@ a:hover {
 a:focus {
 	text-decoration: none;
 	color: #466c95;
-	background-color: #f6f49d;
+	background-color: #ffffff00;
 }
+
 
 a:hover,
 a:active {
@@ -41,7 +42,7 @@ a:active {
 }
 
 .description a {
-	background-color: #fffec4;
+	background-color: #ffffff00;
 	padding: 2.1px;
 }
 
@@ -168,7 +169,9 @@ main {
 		max-width: 330px;
 	}
 
-
+	main {
+		min-height: 80vh;
+	}
 
 }
 
@@ -194,11 +197,12 @@ main {
 		max-width: 250px;
 	}
 
+
 	header .external-links {
 		padding: 0.1em;
 	}
 
 	main {
-		min-height: 80vh;
+		min-height: 70vh;
 	}
 }
