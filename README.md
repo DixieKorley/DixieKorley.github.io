@@ -5,7 +5,7 @@ Highly motivated and detail oriented Help Desk Technician seeking a Data Analyst
 
 ## Skills & Experience
 - **Current Role:** Help Desk Technician (But not stopping there!)
-- **Certifications:** CompTIA Data+ (Almost there!)
+- **Certifications:** CompTIA Data+ (*In progress.* Almost there!)
 - **Using These Languages & Tools:**
   - Python (Go to)
   - Jupyter Notebook (Where it gets interesting)
