@@ -1,10 +1,26 @@
-# Dixie Korley 
+# Welcome 😃
 
-Hello,
+## About Me 
+Highly motivated and detail oriented Help Desk Technician seeking a Data Analyst position to leverage analytical skills and technical support knowledge. 
 
-I am an IT Help Desk Technician searching for a data analyst position. Hello there! I'm Dixie, currently working in a help desk role and aspiring to transition into the dynamic field of data analysis. I am working on getting my CompTIA Data+ certification.
+## Skills & Experience
+- **Current Role:** Help Desk Technician (But not stopping there!)
+- **Certifications:** CompTIA Data+ (*In progress.* Almost there!)
+- **Using These Languages & Tools:**
+  - Python (Go to)
+  - Jupyter Notebook (Where it gets interesting)
+  - GitHub (Everything in its right place)
+  - SQL (Talking to databases)
+  - Excel (A classic)
 
-Here, I share my journey, experiences, and projects related to data analysis. I believe in continuous learning and improvement and constantly seek opportunities to enhance my skills. If you have any insights, advice, or potential collaborations related to data analysis, I'd love to connect.
+## Hobbies
+- **Drawing Comics**✒️
+- **Writing Stories**📓
 
-You can pay me a visit at https://dixiekorley.com 🚀
+## Goals
+I believe in continuous learning, problem solving, improvement and constantly seek opportunities to enhance my skills. If you have any insights, advice, or potential collaborations related to data analysis, let me know. 
 
+## Contact
+Ready to connect? Find me on [LinkedIn](https://www.linkedin.com/in/dixie-korley/) or drop me an email [dixiekorley@gmail.com](mailto:dixiekorley@gmail.com).
+
+---
