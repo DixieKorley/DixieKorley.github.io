@@ -22,6 +22,6 @@ Highly motivated and detail oriented Help Desk Technician seeking an entry role 
 I believe in continuous learning, problem solving, improvement and constantly seek opportunities to enhance my skills. If you have any insights, advice, or potential collaborations related to data analysis, let me know. 
 
 ## Contact
-Ready to connect? Find me on [LinkedIn](https://www.linkedin.com/in/dixie-korley/) or drop me an email [dixiekorley@gmail.com](mailto:dixiekorley@gmail.com). You can also check out my portfolio [here.](https://www.datascienceportfol.io/dixiekorley)
+Ready to connect? Find me on [LinkedIn](https://www.linkedin.com/in/dixie-korley/) or drop me an email [dixiekorley@gmail.com](mailto:dixiekorley@gmail.com). You can also check out my [home](https://www.dixiekorley.com) and/or portfolio [here.](https://www.datascienceportfol.io/dixiekorley)
 
 ---
