@@ -1,11 +1,11 @@
 # Welcome 😃
 ![voxel graphic with computer](./banner.png "Title")
 ## About Me 
-Highly motivated and detail oriented Help Desk Technician seeking an entry role Data Analyst position to leverage analytical skills and technical support knowledge. 
+Highly motivated and detail oriented Help Desk Technician seeking an entry role Data Analyst/Cybersecurity position to leverage analytical skills and technical support knowledge. 
 
 ## Skills & Experience
 - **Current Role:** IT Help Desk Technician (But not stopping there!)
-- **Certifications:** CompTIA Data+, PowerBI (*In progress.* Almost there!)
+- **Certifications:** CompTIA Data+, CompTIA Security+ (*In progress.* Almost there!)
 - **Using These Languages & Tools:**
   - Python (Go to)
   - Jupyter Notebook (Where it gets interesting)
@@ -13,10 +13,12 @@ Highly motivated and detail oriented Help Desk Technician seeking an entry role 
   - SQL (Talking to databases)
   - Excel (A classic)
 
+<!--
 ## Hobbies
 - **Drawing Comics**✒️
 - **Writing Stories**📓
 - **Cooking**📓
+-->
 
 ## Goals
 I believe in continuous learning, problem solving, improvement and constantly seek opportunities to enhance my skills. If you have any insights, advice, or potential collaborations related to data analysis, let me know. 
