@@ -5,14 +5,14 @@ Highly motivated and detail oriented Help Desk Technician seeking an entry role 
 
 ## Skills & Experience
 - **Current Role:** IT Help Desk Technician (But not stopping there!)
-- **Certifications:** CompTIA Data+, CompTIA Security+ (*In progress.*)
+- **Certifications:** CompTIA Data+
 - **Using These Languages & Tools:**
-  - Python (Go to)
-  - Jupyter Notebook (Where it gets interesting)
-  - GitHub (Everything in its right place)
-  - SQL (Talking to databases)
-  - Excel (A classic)
-
+  - Microsoft Office (Excel, PowerPoint, Access, Word)
+  - Power BI
+  - Python
+  - Jupyter Notebook 
+  - GitHub 
+  - SQL 
 <!--
 ## Hobbies
 - **Drawing Comics**✒️
