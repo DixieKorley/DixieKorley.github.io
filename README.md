@@ -24,6 +24,6 @@ I'm an aspiring Data Analyst with a background in IT support and reporting, curr
 I believe in continuous learning, problem solving, improvement and constantly seek opportunities to enhance my skills. If you have any insights, advice, or potential collaborations related to data analysis, let me know. 
 
 ## Contact
-Ready to connect? Find me on [LinkedIn](https://www.linkedin.com/in/dixie-korley/) or drop me an email [dixiekorley@gmail.com](mailto:dixiekorley@gmail.com). You can also check out my [home](https://dixiekorley.com/) and/or portfolio [here.](https://www.datascienceportfol.io/dixiekorley) If you just need need a resume, click [here.](./resume_dixie_korley_2025_remote.pdf)
+Ready to connect? Find me on [LinkedIn](https://www.linkedin.com/in/dixie-korley/) or drop me an email [dixiekorley@gmail.com](mailto:dixiekorley@gmail.com). You can also check out my [home](https://dixiekorley.com/) and/or portfolio [here.](https://www.datascienceportfol.io/dixiekorley) If you just need need a resume, click [here.](./resume_dk_2025_remote.pdf)
 
 ---
