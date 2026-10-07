@@ -1,29 +1,13 @@
-# Welcome 😃
-![voxel graphic with computer](./banner.png "Title")
-## About Me 
-I'm an aspiring Data Analyst with a background in IT support and reporting, currently building skills in Python, SQL, Excel, and Power BI. I bring experience turning raw data into clear insights through reporting and dashboard creation, and I'm looking to grow within the data analytics space.
+# Dixie Korley
 
-## Skills & Experience
-- **Current Role:** Business Support Specialist
-- **Certifications:** CompTIA Data+, ITIL 4 Foundations
-- **Using These Languages & Tools:**
-  - Microsoft Office (Excel, PowerPoint, Access, Word)
-  - Power BI
-  - Python
-  - Jupyter Notebook 
-  - GitHub 
-  - SQL 
-<!--
-## Hobbies
-- **Drawing Comics**✒️
-- **Writing Stories**📓
-- **Cooking**📓
--->
+This repository holds the code for my personal website, [dixiekorley.com](https://dixiekorley.com/).
 
-## Goals
-I believe in continuous learning, problem solving, improvement and constantly seek opportunities to enhance my skills. If you have any insights, advice, or potential collaborations related to data analysis, let me know. 
+## About me
+
+I spent more than five years at PSEG, first supporting employees with their technology, then preparing reports and presentations for business teams. I like organized information, clear communication and work that helps people.
+
+I also volunteer with [Afrovana](https://afrovana.com), where I helped plan and build the site and manage its content.
 
 ## Contact
-Ready to connect? Find me on [LinkedIn](https://www.linkedin.com/in/dixie-korley/) or drop me an email [dixiekorley@gmail.com](mailto:dixiekorley@gmail.com). You can also check out my [home](https://dixiekorley.com/) and/or portfolio [here.](https://www.datascienceportfol.io/dixiekorley) If you just need need a resume, click [here.](./resume_dk_2025_remote.pdf)
 
----
+Email me at [dixiekorley@gmail.com](mailto:dixiekorley@gmail.com). My resume is available on request.

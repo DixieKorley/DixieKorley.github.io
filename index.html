@@ -1,112 +1,267 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
+	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Dixie Korley</title>
+	<meta name="description" content="Dixie Korley, based in New Jersey: experience, skills and contact.">
+	<meta name="color-scheme" content="light dark">
+	<meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
+	<meta name="theme-color" content="#030712" media="(prefers-color-scheme: dark)">
+	<script>
+		try {
+			var saved = localStorage.getItem("theme");
+			if (saved === "light" || saved === "dark") document.documentElement.setAttribute("data-theme", saved);
+		} catch (e) {}
+	</script>
 	<link rel="shortcut icon" href="favicon.ico">
-	<link rel="stylesheet" type="text/css"
-		href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css" />
-	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css" />
-	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick-theme.css" />
-	<link rel="stylesheet" type="text/css" href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="./index.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap">
+	<link rel="stylesheet" href="./index.css">
 </head>
 
 <body>
-	<header>
-		<ul class="external-links">
-			<li>
-				<a href="index.html">
-					<img src="./home.png" alt="home" width="30" height="30">
-				</a>
-			</li>
-		</ul>
+	<header class="nav">
+		<div class="nav-inner">
+			<a class="brand" href="#top">Dixie Korley</a>
+			<nav class="nav-links" aria-label="Sections">
+				<a href="#about">About</a>
+				<a href="#experience">Experience</a>
+				<a href="#projects">Projects</a>
+				<a href="#skills">Skills</a>
+				<a href="#contact">Contact</a>
+				<a href="./resume.html">Resume</a>
+			</nav>
+			<button class="theme-toggle" type="button" aria-label="Switch between light and dark mode">
+				<svg class="icon-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4.5"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
+				<svg class="icon-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 14.5A8 8 0 0 1 9.5 4a8 8 0 1 0 10.5 10.5z"/></svg>
+			</button>
+		</div>
 	</header>
 
-	<main class="center-of-screen">
-		<center>
+	<div class="frame" id="top">
+		<section class="hero">
+			<p class="label">New Jersey</p>
 			<h1>Dixie Korley</h1>
-			<h3>Data Analyst | Business Support Specialist</h3>
+			<p class="lead">More than five years in business support and IT Help Desk. Looking for a role that fits my experience, and I'm <span class="hl">ready to bring my skills to other fields</span>.</p>
+			<p class="fit-label">My skills fit roles in</p>
+			<ul class="fit">
+				<li>Records &amp; document control</li>
+				<li>Library &amp; archives</li>
+				<li>Government</li>
+				<li>Data &amp; reporting</li>
+				<li>Creative &amp; digital content</li>
+			</ul>
+			<div class="actions">
+				<a class="btn btn-solid" href="mailto:dixiekorley@gmail.com">Email me</a>
+				<a class="btn btn-outline" href="./resume.html">View resume</a>
+			</div>
+		</section>
 
-			<div class="description">
-				<div id="brief">
-					<h3>Welcome</h3>
-					<p>Hello there! I'm Dixie, currently working as a Business Support Specialist. I'm driven to explore data-driven solutions and grow within the analytics space.</p>
-					<p>I currently have a CompTIA Data+, an ITIL 4 certification, and I am working on getting more.</p>
+		<section id="about">
+			<p class="label">about</p>
+			<h2>A bit about me</h2>
+			<div class="prose">
+				<p>I started my career in 2019 with Workforce Opportunity Services, first in IT help desk training and then as a contract help desk technician. In 2020, I joined PSEG. For nearly five years as an IT Field Service Technician, I supported employees onsite and remotely, managed and documented support tickets in ServiceNow, and followed company security policies.</p>
+				<p>While working, I went back to school to learn data analytics. I earned an Introduction to Data Analysis certificate from Union College, completed my CompTIA Data+ certification and took courses at Kean University.</p>
+				<p>In 2025, I moved into a Business Support Specialist role, helping prepare reports, dashboards and presentations that tracked team goals and shared results with stakeholders. Along the way, I volunteered as a data analyst for JerseySTEM, and in 2026 I began volunteering with Afrovana, where I help plan the site's features and design and manage its content.</p>
+			</div>
+		</section>
 
-					<p>I recently volunteered as Data Analyst for JerseySTEM and am familiar with the data analytics cycle, working with tools like Python, Pandas and Jupyter Notebook. If you have any insights, advice, or potential collaborations related to data analysis, I'd love to connect.</p>
-					<h3>Resume</h3>
-					<p>If you need an extra tab up,</i> check out my <a target="_blank" href="https://github.com/DixieKorley/DixieKorley.github.io/blob/master/resume_dk_2025_remote.pdf">resume</a>.
-						<!-- <center>
-							<p>👉</p>
-						</center> -->
+		<section id="experience">
+			<p class="label">experience</p>
+			<h2>Where I've worked</h2>
+
+			<div class="rows">
+				<article class="row">
+					<p class="when">June 2026 &ndash; Present</p>
+					<div>
+						<h3>Web &amp; Content Volunteer</h3>
+						<p class="org">Afrovana</p>
+						<ul>
+							<li>Helped build the Afrovana website and planned all of its features.</li>
+							<li>Assisted with planning the site's user experience and interface design.</li>
+							<li>Post and manage content to keep the site current.</li>
+						</ul>
+					</div>
+				</article>
+
+				<article class="row">
+					<p class="when">June 2025 &ndash; October 2026</p>
+					<div>
+						<h3>Business Support Specialist</h3>
+						<p class="org">PSEG</p>
+						<ul>
+							<li>Prepared reports, charts and dashboards that tracked progress toward team goals.</li>
+							<li>Built presentations sharing results with internal teams.</li>
+							<li>Worked across departments to gather information and check findings.</li>
+						</ul>
+					</div>
+				</article>
+
+				<article class="row">
+					<p class="when">September 2020 &ndash; June 2025</p>
+					<div>
+						<h3>IT Field Service Technician</h3>
+						<p class="org">PSEG</p>
+						<ul>
+							<li>Supported employees onsite and remotely with computer and software problems.</li>
+							<li>Managed and documented support requests in ServiceNow.</li>
+							<li>Followed company security and privacy policies in daily work.</li>
+						</ul>
+					</div>
+				</article>
+
+				<article class="row">
+					<p class="when">Volunteer</p>
+					<div>
+						<h3>Volunteer Data Analyst</h3>
+						<p class="org">JerseySTEM</p>
+						<ul>
+							<li>Analyzed data for a STEM education nonprofit using Python.</li>
+						</ul>
+					</div>
+				</article>
+
+				<article class="row">
+					<p class="when">2019 &ndash; 2020</p>
+					<div>
+						<h3>IT Help Desk Technician (Contractor)</h3>
+						<p class="org">Workforce Opportunity Services</p>
+					</div>
+				</article>
+			</div>
+		</section>
+
+		<section id="projects">
+			<p class="label">projects</p>
+			<h2>What I've built</h2>
+			<a class="project" target="_blank" rel="noopener" href="https://afrovana.com">
+				<div class="project-head">
+					<h3>Afrovana</h3>
+					<span class="project-tag">Volunteer &middot; 2026</span>
 				</div>
-				<div id="skills">
-					<h3>Certifications</h3>
-					<p><em>CompTIA Data+, ITIL 4 Foundation</em></p>
-					<h3>Skills</h3>
-					<p>Languages: <em>Python, SQL, HTML, CSS</em></p>
-					<p>Data Analysis: <em>Pandas, Beautiful Soup, PowerBI</em></p>
-					<p>Technical Support: <em>Microsoft Excel, Windows, Microsoft 365</em></p>
+				<p>A platform I volunteer with. I helped build the site, planned its features, helped shape the user experience and interface, and manage its content.</p>
+				<span class="project-link">Visit afrovana.com <span aria-hidden="true">&rarr;</span></span>
+			</a>
+		</section>
 
-					</p>
-
-				</div>
-				<div id="experience">
-					<h3>Experience</h3>
-					<p>I'm a Business Support Specialist at <a target="_blank" href="https://pseg.com/">Public
-							Service Enterprise Group</a>. I also just recently volunteered at <a target="_blank" href="https://jerseystem.org/">JerseySTEM</a> as a Volunteer Data Analyst. Here is what got me there:</p>
-					<ul>
-						<li><a target="_blank" href="https://jerseystem.org/">Jersey STEM</a>, Volunteer Data Analyst</li>
-						<li><a target="_blank" href="https://pseg.com">Public Service Enterprise Group</a>, IT Help Desk
-							Technician</li>
-						<li><a target="_blank" href="https://www.wforce.org/">Workforce Opportunity Services</a>, IT
-							Help Desk Technician (Contractor)</li>
-						<li><a target="_blank" href="https://www.wforce.org/">Workforce Opportunity Services</a>, IT
-							Help Desk Training, 2019</li>
+		<section id="skills">
+			<p class="label">skills</p>
+			<h2>What I bring</h2>
+			<div class="skill-groups">
+				<div class="skill-group">
+					<h3>Office &amp; administration</h3>
+					<ul class="pills">
+						<li>Microsoft 365</li>
+						<li>Excel</li>
+						<li>PowerPoint</li>
+						<li>Word</li>
+						<li>Access</li>
+						<li>Reports &amp; presentations</li>
+						<li>Clear writing</li>
 					</ul>
 				</div>
-
-				<div id="education">
-					<h3>Education</h3>
-					<ul>
-						<li><a target="_blank" href="https://rutgers.edu">Kean University</a>, Bachelors of Science in
-							Computer Science | Data Science Option, Current</li>
-						<li><a target="_blank" href="https://rutgers.edu">Rutgers University</a>, Bachelors of Arts in
-							English, Minor in Management, 2016</li>
-						<li><a target="_blank" href="https://essex.edu/">Essex County College</a>, Associate in Science
-							in
-							Business Administration, 2011</li>
+				<div class="skill-group">
+					<h3>Records &amp; IT support</h3>
+					<ul class="pills">
+						<li>ServiceNow</li>
+						<li>Records &amp; documentation</li>
+						<li>Security &amp; privacy policies</li>
+						<li>Troubleshooting</li>
+						<li>ITIL 4</li>
 					</ul>
 				</div>
-				<div id="portfolio">
-					<h3>Portfolio</h3>
-					<p>I currently work on Kaggle and Github for my projects, so I put them all on this portfolio site. More coming soon.</p>
-					<p>You can check them out below:</p>
-					<hr>
-					<ul>
-						<li>
-							<a target="_blank"
-							href="https://www.datascienceportfol.io/dixiekorley">Data Analyst Portfolio</a>
-						</li>
-						
+				<div class="skill-group">
+					<h3>Data &amp; reporting</h3>
+					<ul class="pills">
+						<li>Power BI</li>
+						<li>Python</li>
+						<li>Pandas</li>
+						<li>Dashboards</li>
+						<li>Data cleaning</li>
 					</ul>
-							
+				</div>
+				<div class="skill-group">
+					<h3>Creative &amp; digital content</h3>
+					<ul class="pills">
+						<li>Adobe Photoshop</li>
+						<li>Adobe Illustrator</li>
+						<li>Canva</li>
+						<li>Graphic design</li>
+						<li>Website planning</li>
+						<li>Content management</li>
+					</ul>
 				</div>
 			</div>
-		</center>
-		</center>
-	</main>
-	<script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
-	<script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-	<script src="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
+		</section>
+
+		<section id="education">
+			<p class="label">education</p>
+			<h2>Education &amp; certifications</h2>
+			<div class="rows">
+				<div class="row">
+					<p class="when">2015</p>
+					<div>
+						<h3>Rutgers University</h3>
+						<p class="org">B.A., English, Minor in Business Management</p>
+					</div>
+				</div>
+				<div class="row">
+					<p class="when">2011</p>
+					<div>
+						<h3>Essex County College</h3>
+						<p class="org">A.S., Business Administration</p>
+					</div>
+				</div>
+				<div class="row">
+					<p class="when">Coursework</p>
+					<div>
+						<h3>Kean University</h3>
+						<p class="org">Computer Science</p>
+					</div>
+				</div>
+				<div class="row">
+					<p class="when">Certifications</p>
+					<div>
+						<h3>ITIL 4 Foundation &middot; CompTIA Data+</h3>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="contact" class="contact">
+			<p class="label">contact</p>
+			<h2>Let's <span class="hl">talk</span>.</h2>
+			<p class="lead">The best way to reach me is by email.</p>
+			<div class="actions">
+				<a class="btn btn-solid" href="mailto:dixiekorley@gmail.com">dixiekorley@gmail.com</a>
+				<a class="btn btn-outline" href="./resume.html">View resume</a>
+			</div>
+		</section>
+
+		<footer>
+			<p>&copy; 2026 Dixie Korley</p>
+		</footer>
+	</div>
+
 	<script>
-		$(document).ready(function () {
-			$('.description').slick({
-				dots: true
+		(function () {
+			var root = document.documentElement;
+			var button = document.querySelector(".theme-toggle");
+			function current() {
+				var set = root.getAttribute("data-theme");
+				if (set) return set;
+				return window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+			}
+			button.addEventListener("click", function () {
+				var next = current() === "dark" ? "light" : "dark";
+				root.setAttribute("data-theme", next);
+				try { localStorage.setItem("theme", next); } catch (e) {}
 			});
-		});
+		})();
 	</script>
 </body>
 
