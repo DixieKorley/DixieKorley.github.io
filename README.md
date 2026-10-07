@@ -6,7 +6,7 @@ This repository holds the code for my personal website, [dixiekorley.com](https:
 
 I spent more than five years at PSEG, first supporting employees with their technology, then preparing reports and presentations for business teams. I like organized information, clear communication and work that helps people.
 
-I also volunteer with [Afrovana](https://afrovana.com), where I helped plan and build the site and manage its content.
+I also volunteer with [Afrovana](https://afrovana.com), where I help plan the site's UI/UX design and features and manage its content.
 
 ## Contact
 
